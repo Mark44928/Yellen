@@ -1,0 +1,96 @@
+{
+  "name": "Yellen",
+  "version": "1.0.0",
+  "variants": {
+    "dark": {
+      "terminal": {
+        "background": "#171408",
+        "foreground": "#F3E8B8",
+        "cursor": "#F2D14E",
+        "cursor_text": "#171408",
+        "selection_background": "#3A3114",
+        "selection_foreground": "#F7EDC4",
+        "url_color": "#E8B94B"
+      },
+      "ansi": [
+        "#2A2612",
+        "#C76A52",
+        "#A9B85A",
+        "#F2D14E",
+        "#D6A843",
+        "#C6986A",
+        "#D8B85A",
+        "#E6D7A4",
+        "#745F2B",
+        "#E08A6A",
+        "#C2D26A",
+        "#F7DE72",
+        "#E8BD54",
+        "#D8AD70",
+        "#F0CB68",
+        "#FBF1C7"
+      ],
+      "editor": {
+        "bg": "#171408",
+        "surface": "#24200C",
+        "fg": "#F3E8B8",
+        "comment": "#87763B",
+        "border": "#6E5B25",
+        "bg_hi": "#24200C"
+      },
+      "accents": {
+        "primary": "#F2D14E",
+        "secondary": "#D8A93B",
+        "yellow": "#F7DE72",
+        "rose": "#C98B6B",
+        "cyan": "#E6C15A",
+        "error": "#C76A52"
+      }
+    },
+    "light": {
+      "terminal": {
+        "background": "#FBF6DE",
+        "foreground": "#332A0D",
+        "cursor": "#8B6E15",
+        "cursor_text": "#FBF6DE",
+        "selection_background": "#EFE4B9",
+        "selection_foreground": "#332A0D",
+        "url_color": "#8B6A12"
+      },
+      "ansi": [
+        "#EFE7C4",
+        "#A4442D",
+        "#66721F",
+        "#8A6B11",
+        "#8B6A12",
+        "#8A5F36",
+        "#7A5C13",
+        "#D3C48E",
+        "#75673C",
+        "#B65C43",
+        "#7A8829",
+        "#A37E18",
+        "#A77A1A",
+        "#A06E42",
+        "#927018",
+        "#FFFDF5"
+      ],
+      "editor": {
+        "bg": "#FBF6DE",
+        "surface": "#F1E8C4",
+        "fg": "#332A0D",
+        "comment": "#75673C",
+        "border": "#B7A66D",
+        "bg_hi": "#F1E8C4"
+      },
+      "accents": {
+        "primary": "#82630C",
+        "secondary": "#806010",
+        "yellow": "#7E620E",
+        "rose": "#98613A",
+        "cyan": "#7A5C0A",
+        "error": "#A4442D"
+      }
+    }
+  }
+}

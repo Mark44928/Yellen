@@ -1,0 +1,46 @@
+// Yellen light — fastfetch config
+// Install: cp fastfetch/yellen-light.jsonc ~/.config/fastfetch/config.jsonc
+// Load: fastfetch -c fastfetch/yellen-light.jsonc
+
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "auto",
+    "color": {
+      "1": "#82630C",
+      "2": "#806010",
+      "3": "#7E620E",
+      "4": "#7A5C0A",
+      "5": "#98613A",
+      "6": "#332A0D"
+    },
+    "padding": { "right": 2 }
+  },
+  "display": {
+    "separator": "  ",
+    "color": {
+      "keys": "#82630C",
+      "title": "#332A0D",
+      "output": "#332A0D",
+      "separator": "#75673C"
+    },
+    "key": { "width": 14 },
+    "percent": { "type": 3 }
+  },
+  "modules": [
+    "title",
+    "separator",
+    "os",
+    "host",
+    "kernel",
+    "uptime",
+    "packages",
+    "shell",
+    "terminal",
+    "cpu",
+    "memory",
+    "disk",
+    "break",
+    "colors"
+  ]
+}

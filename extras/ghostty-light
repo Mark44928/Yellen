@@ -1,0 +1,25 @@
+# Yellen light — warm golden terminal theme
+# Install: append to ~/.config/ghostty/config, or:
+#   include = $HOME/Yellen/extras/ghostty
+
+background = #FBF6DE
+foreground = #332A0D
+cursor-color = #8B6E15
+cursor-text = #FBF6DE
+
+palette = 0=#EFE7C4
+palette = 1=#A4442D
+palette = 2=#66721F
+palette = 3=#8A6B11
+palette = 4=#8B6A12
+palette = 5=#8A5F36
+palette = 6=#7A5C13
+palette = 7=#D3C48E
+palette = 8=#75673C
+palette = 9=#B65C43
+palette = 10=#7A8829
+palette = 11=#A37E18
+palette = 12=#A77A1A
+palette = 13=#A06E42
+palette = 14=#927018
+palette = 15=#FFFDF5

@@ -1,0 +1,13 @@
+# Yellen light — ripgrep color configuration
+# Install: cp ripgrep/yellen-light.rc ~/.ripgreprc
+# Then: export RIPGREP_CONFIG_PATH="$HOME/.ripgreprc"
+# Uses 24-bit truecolor hex values (#RRGGBB).
+
+--colors=match:fg:130,99,12
+--colors=match:style:bold
+--colors=path:fg:128,96,16
+--colors=path:style:bold
+--colors=line:fg:117,103,60
+--colors=column:fg:122,92,10
+--colors=highlight:bg:126,98,14
+--colors=highlight:fg:251,246,222

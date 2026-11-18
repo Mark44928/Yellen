@@ -1,0 +1,34 @@
+# Yellen light — zellij theme
+# Install: mkdir -p ~/.config/zellij/themes && cp zellij/yellen-light.kdl ~/.config/zellij/themes/
+# Load: theme "yellen-light" in ~/.config/zellij/config.kdl
+# Colors use #RRGGBB hex format.
+
+themes {
+	yellen-light {
+		fg "#332A0D"
+		bg "#FBF6DE"
+		black "#75673C"
+		red "#A4442D"
+		green "#82630C"
+		yellow "#7E620E"
+		blue "#806010"
+		magenta "#98613A"
+		cyan "#7A5C0A"
+		white "#332A0D"
+		orange "#A4442D"
+	}
+
+	yellen-light-syntax {
+		fg "#332A0D"
+		bg "#FBF6DE"
+		black "#75673C"
+		red "#98613A"
+		green "#82630C"
+		yellow "#7E620E"
+		blue "#7A5C0A"
+		magenta "#806010"
+		cyan "#82630C"
+		white "#332A0D"
+		orange "#A4442D"
+	}
+}

@@ -1,0 +1,30 @@
+# Yellen dark — vivid theme
+# vivid (https://github.com/sharkdp/vivid) generates LS_COLORS from a theme file.
+#
+#   vivid generate yellen-dark.yml                       # print LS_COLORS
+#   eval "$(vivid generate yellen-dark.yml)"             # or apply it
+#   vivid apply yellen-dark.yml -V                       # preview in the repo
+colors:
+  background: "#171408"
+  foreground: "#F3E8B8"
+  cursor: "#F2D14E"
+  selection_background: "#3A3114"
+  selection_foreground: "#F7EDC4"
+  normal:
+    black: "#2A2612"
+    red: "#C76A52"
+    green: "#A9B85A"
+    yellow: "#F2D14E"
+    blue: "#D6A843"
+    magenta: "#C6986A"
+    cyan: "#D8B85A"
+    white: "#E6D7A4"
+  bright:
+    black: "#745F2B"
+    red: "#E08A6A"
+    green: "#C2D26A"
+    yellow: "#F7DE72"
+    blue: "#E8BD54"
+    magenta: "#D8AD70"
+    cyan: "#F0CB68"
+    white: "#FBF1C7"

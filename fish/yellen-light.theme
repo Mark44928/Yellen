@@ -1,0 +1,38 @@
+# Yellen light — fish shell theme
+# Install: cp fish/yellen-light.theme ~/.config/fish/themes/
+# Then: fish_config  →  select "Yellen light"
+# Or:   set -U fish_color_* values manually (see below)
+
+# name: Yellen light
+# preferred_background: #FBF6DE
+
+fish_color_normal "#332A0D"
+fish_color_command "#82630C"
+fish_color_param "#806010"
+fish_color_redirection "#7A5C0A"
+fish_color_end "#82630C"
+fish_color_error "#A4442D"
+fish_color_comment "#75673C"
+fish_color_match --background="#F1E8C4"
+fish_color_selection --background="#F1E8C4"
+fish_color_search_match --background="#7E620E"
+fish_color_history_current --bold
+fish_color_cwd "#332A0D"
+fish_color_cwd_root "#A4442D"
+fish_color_valid_path --underline
+fish_color_operator "#7E620E"
+fish_color_escape "#7A5C0A"
+fish_color_quote "#806010"
+fish_color_keyword "#98613A"
+fish_color_option "#82630C"
+fish_color_user "#82630C"
+fish_color_host "#806010"
+fish_color_host_remote "#A4442D"
+fish_color_cancel "#FBF6DE" --background="#332A0D"
+fish_color_autosuggestion "#75673C"
+
+# Pager colors
+fish_pager_color_prefix "#82630C" --bold --underline
+fish_pager_color_completion "#332A0D"
+fish_pager_color_description "#806010"
+fish_pager_color_progress "#82630C" --background="#F1E8C4" --bold

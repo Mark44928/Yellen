@@ -1,0 +1,42 @@
+# Yellen — generated theme family
+#
+# make gen        render every artifact from palette.json via gen.py
+# make check      regenerate, fail on git diff (drift detection),
+#                 regenerate WCAG table, then run the colorscheme load test
+# make contrast   regenerate the WCAG contrast table in palette.md
+# make test       run the Vim colorscheme load test (skips if vim is absent)
+# make preview    regenerate assets/palette-preview.svg from palette.json
+
+# TMPDIR is resolved by each script (Termux default first, then mktemp) so
+# the same commands work on a phone and on CI runners.
+
+.PHONY: gen gen-only list-artifacts check contrast test preview
+
+preview:
+	python3 scripts/svgswatch.py
+
+# Invoke through the interpreter, not ./script: the files carry the Termux
+# shebang (their path only exists on Android), which breaks `make` on Linux
+# CI runners. Same commands, both platforms.
+gen:
+	python3 ./gen.py
+
+# make gen-only APP=vim   → regenerate only artifacts whose path matches APP
+gen-only:
+	@test -n "$(APP)" || { echo 'usage: make gen-only APP=<path substring>'; exit 2; }
+	python3 ./gen.py --only "$(APP)"
+
+# print every generated artifact path (handy for scripting and dotfiles)
+list-artifacts:
+	python3 ./gen.py --list
+
+contrast:
+	python3 tests/contrast.py
+
+test:
+	bash ./test-colorscheme.sh
+	node tests/test_gallery_copy.mjs
+
+check: gen contrast
+	git diff --exit-code
+	@$(MAKE) test --no-print-directory

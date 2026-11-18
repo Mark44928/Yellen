@@ -1,0 +1,36 @@
+# Yellen Light — warm golden terminal theme
+
+# Install: cp extras/alacritty.toml ~/.config/alacritty/themes/yellen.toml
+# Then add `import = ["~/.../yellen.toml"]` to alacritty.toml
+
+[colors.primary]
+background = "#FBF6DE"
+foreground = "#332A0D"
+
+[colors.cursor]
+cursor = "#8B6E15"
+text = "#FBF6DE"
+
+[colors.selection]
+background = "#EFE4B9"
+foreground = "#332A0D"
+
+[colors.normal]
+black   = "#EFE7C4"
+red     = "#A4442D"
+green   = "#66721F"
+yellow  = "#8A6B11"
+blue    = "#8B6A12"
+magenta = "#8A5F36"
+cyan    = "#7A5C13"
+white   = "#D3C48E"
+
+[colors.bright]
+black   = "#75673C"
+red     = "#B65C43"
+green   = "#7A8829"
+yellow  = "#A37E18"
+blue    = "#A77A1A"
+magenta = "#A06E42"
+cyan    = "#927018"
+white   = "#FFFDF5"

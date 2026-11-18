@@ -1,0 +1,23 @@
+{
+  "name": "Yellen Light",
+
+  "background": "#FBF6DE",
+  "foreground": "#332A0D",
+  "cursorColor": "#8B6E15",
+  "black": "#EFE7C4",
+  "red": "#A4442D",
+  "green": "#66721F",
+  "yellow": "#8A6B11",
+  "blue": "#8B6A12",
+  "purple": "#8A5F36",
+  "cyan": "#7A5C13",
+  "white": "#D3C48E",
+  "brightBlack": "#75673C",
+  "brightRed": "#B65C43",
+  "brightGreen": "#7A8829",
+  "brightYellow": "#A37E18",
+  "brightBlue": "#A77A1A",
+  "brightPurple": "#A06E42",
+  "brightCyan": "#927018",
+  "brightWhite": "#FFFDF5"
+}

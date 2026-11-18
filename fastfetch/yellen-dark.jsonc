@@ -1,0 +1,46 @@
+// Yellen dark — fastfetch config
+// Install: cp fastfetch/yellen-dark.jsonc ~/.config/fastfetch/config.jsonc
+// Load: fastfetch -c fastfetch/yellen-dark.jsonc
+
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "auto",
+    "color": {
+      "1": "#F2D14E",
+      "2": "#D8A93B",
+      "3": "#F7DE72",
+      "4": "#E6C15A",
+      "5": "#C98B6B",
+      "6": "#F3E8B8"
+    },
+    "padding": { "right": 2 }
+  },
+  "display": {
+    "separator": "  ",
+    "color": {
+      "keys": "#F2D14E",
+      "title": "#F3E8B8",
+      "output": "#F3E8B8",
+      "separator": "#87763B"
+    },
+    "key": { "width": 14 },
+    "percent": { "type": 3 }
+  },
+  "modules": [
+    "title",
+    "separator",
+    "os",
+    "host",
+    "kernel",
+    "uptime",
+    "packages",
+    "shell",
+    "terminal",
+    "cpu",
+    "memory",
+    "disk",
+    "break",
+    "colors"
+  ]
+}

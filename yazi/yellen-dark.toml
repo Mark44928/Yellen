@@ -1,0 +1,56 @@
+# Yellen dark — yazi theme.toml
+# Install: cp yazi/yellen-dark.toml ~/.config/yazi/theme.toml
+# Dark/light variants are separate files since yazi auto-loads theme-dark.toml /
+# theme-light.toml based on terminal color mode.
+
+[flavor]
+dark = ""
+light = ""
+
+[app]
+overall = { fg = "#F3E8B8", bg = "#171408" }
+
+[mgr]
+cwd = { fg = "#F2D14E", bold = true }
+find_keyword = { fg = "#F7DE72", bold = true, italic = true, underline = true }
+find_position = { fg = "#D8A93B", bg = "reset", bold = true, italic = true }
+symlink_target = { italic = true }
+marker_copied = { fg = "#F2D14E", bg = "#F2D14E" }
+marker_cut = { fg = "#C76A52", bg = "#C76A52" }
+marker_marked = { fg = "#E6C15A", bg = "#E6C15A" }
+marker_selected = { fg = "#F7DE72", bg = "#F7DE72" }
+count_copied = { fg = "#171408", bg = "#F2D14E" }
+count_cut = { fg = "#171408", bg = "#C76A52" }
+count_selected = { fg = "#171408", bg = "#F7DE72" }
+border_symbol = "│"
+border_style = { fg = "#87763B" }
+
+[tabs]
+active = { bg = "#F2D14E", bold = true }
+inactive = { fg = "#87763B", bg = "#171408" }
+sep_inner = { open = "", close = "" }
+sep_outer = { open = "", close = "" }
+
+[mode]
+normal_main = { bg = "#F2D14E", bold = true }
+normal_alt = { fg = "#F2D14E", bg = "#24200C" }
+select_main = { bg = "#C76A52", bold = true }
+select_alt = { fg = "#C76A52", bg = "#24200C" }
+unset_main = { bg = "#C76A52", bold = true }
+unset_alt = { fg = "#C76A52", bg = "#24200C" }
+
+[status]
+overall = { fg = "#F3E8B8", bg = "#24200C" }
+
+[filetype]
+rules = [
+	{ mime = "image/*", fg = "#F2D14E" },
+	{ mime = "{audio,video}/*", fg = "#D8A93B" },
+	{ mime = "application/{zip,rar,7z*,tar,gzip,xz,zstd,bzip*,lzma,compress,archive,cpio,arj,xar,ms-cab*}", fg = "#C76A52" },
+	{ mime = "application/{pdf,doc,rtf}", fg = "#E6C15A" },
+	{ mime = "vfs/{absent,stale}", fg = "#87763B" },
+	{ url = "*", is = "orphan", bg = "#C76A52" },
+	{ url = "*", is = "exec", fg = "#F2D14E" },
+	{ url = "*", is = "dummy", bg = "#C76A52" },
+	{ url = "*/", fg = "#D8A93B" }
+]

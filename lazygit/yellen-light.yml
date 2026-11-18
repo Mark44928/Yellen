@@ -1,0 +1,36 @@
+# Yellen light — lazygit theme
+# Install: cp lazygit/yellen-light.yml ~/.config/lazygit/yellen-light.yml
+# Load: lazygit --use-config-file ~/.config/lazygit/config.yml,~/.config/lazygit/yellen-light.yml
+# Or: LG_CONFIG_FILE="$HOME/.config/lazygit/config.yml,$HOME/.config/lazygit/yellen-light.yml" lazygit
+
+gui:
+  theme:
+    activeBorderColor:
+      - "#82630C"
+      - bold
+    inactiveBorderColor:
+      - "#75673C"
+    searchingActiveBorderColor:
+      - "#806010"
+    optionsTextColor:
+      - "#82630C"
+    selectedLineBgColor:
+      - "#F1E8C4"
+    inactiveViewSelectedLineBgColor:
+      - "#F1E8C4"
+    cherryPickedCommitFgColor:
+      - "#82630C"
+    cherryPickedCommitBgColor:
+      - "#F1E8C4"
+    markedBaseCommitFgColor:
+      - "#82630C"
+    markedBaseCommitBgColor:
+      - "#7E620E"
+    unstagedChangesColor:
+      - "#A4442D"
+    defaultFgColor:
+      - "#332A0D"
+    selectedLineFgColor:
+      - "#332A0D"
+
+  colorScheme: light

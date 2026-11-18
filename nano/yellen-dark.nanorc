@@ -1,0 +1,50 @@
+# Yellen dark — nano nanorc theme
+# Install: cp nano/yellen-dark.nanorc ~/.config/nano/nanorc
+# or: echo "include ~/.config/nano/nanorc" >> ~/.nanorc
+# Colors use nano's 3-digit hex #RGB form (high nibble of each channel).
+
+set titlecolor bold,#FD4,#171408
+set keycolor bold,#DA3,#171408
+set selectedcolor #FEB,#FD4
+set statuscolor #FEB,#220
+set errorcolor bold,#C65,#171408
+set functioncolor #EC5,#171408
+set numbercolor #FD7,#171408
+set stripecolor #873,#171408
+set scrollercolor #873,#171408
+set promptcolor #FD4,#171408
+set minicolor #FEB,#171408
+set spotcolor #DA3,#171408
+set icolor #FD7,#171408
+
+# Basic syntax highlighting — mirrors the vim recipe
+syntax "yellen" "\.(c|h|py|sh|js|ts|lua|rs|go|vim|toml|yaml|yml|json|md|txt|conf)$"
+
+# Comments
+color #873,normal "^\s*#.*$"
+color #873,normal "//.*$"
+color #873,normal "/\*.*\*/"
+
+# Strings
+color #FD4,normal "\"[^\"]*\""
+color #FD4,normal "'[^']*'"
+
+# Keywords
+color #C86,normal "\<(if|then|else|elif|fi|do|done|case|esac|for|while|until|function|return|break|continue)\>"
+color #C86,normal "\<(if|elif|else|for|while|def|class|return|break|continue|import|from|as|with|try|except|finally|lambda|yield|async|await)\>"
+
+# Types/builtins
+color #EC5,normal "\<(int|float|str|bool|list|dict|tuple|set|None|True|False|print|len|open|range|print)\>"
+color #EC5,normal "\<(string|integer|number|boolean|array|object|null|true|false|null)\>"
+
+# Numbers
+color #EC5,normal "[0-9]+"
+
+# Operators/punctuation
+color #FD7,normal "\(\)\{\}\[\]"
+color #FD7,normal "[=+\-*/%!<>&|^~,.;:]"
+
+# Filenames/paths
+color #DA3,normal "\b[A-Za-z_][A-Za-z0-9_]*\.[a-zA-Z0-9_]+\b"
+
+include "/usr/share/nano/*.nanorc"

@@ -1,0 +1,46 @@
+# Yellen dark — lsd colors theme
+# Install: cp lsd/yellen-dark.colors.yaml ~/.config/lsd/colors.yaml
+# Enable in ~/.config/lsd/config.yaml:
+#   color:
+#     theme: custom
+#
+# Hex #RRGGBB values supported by lsd.
+
+user: "#F3E8B8"
+group: "#D8A93B"
+permission:
+  read: "#F2D14E"
+  write: "#F7DE72"
+  exec: "#E6C15A"
+  exec-sticky: "#C98B6B"
+  no-access: "#87763B"
+  octal: "#87763B"
+  acl: "#E6C15A"
+  context: "#D8A93B"
+date:
+  hour-old: "#F2D14E"
+  day-old: "#D8A93B"
+  older: "#87763B"
+size:
+  none: "#87763B"
+  small: "#F2D14E"
+  medium: "#F7DE72"
+  large: "#C98B6B"
+inode:
+  valid: "#D8A93B"
+  invalid: "#87763B"
+links:
+  valid: "#D8A93B"
+  invalid: "#87763B"
+tree-edge: "#87763B"
+git-status:
+  default: "#87763B"
+  unmodified: "#87763B"
+  ignored: "#87763B"
+  new-in-index: "#F2D14E"
+  new-in-workdir: "#F2D14E"
+  typechange: "#F7DE72"
+  deleted: "#C76A52"
+  renamed: "#F2D14E"
+  modified: "#F7DE72"
+  conflicted: "#C76A52"

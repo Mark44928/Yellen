@@ -1,0 +1,23 @@
+{
+  "name": "Yellen Dark",
+
+  "background": "#171408",
+  "foreground": "#F3E8B8",
+  "cursorColor": "#F2D14E",
+  "black": "#2A2612",
+  "red": "#C76A52",
+  "green": "#A9B85A",
+  "yellow": "#F2D14E",
+  "blue": "#D6A843",
+  "purple": "#C6986A",
+  "cyan": "#D8B85A",
+  "white": "#E6D7A4",
+  "brightBlack": "#745F2B",
+  "brightRed": "#E08A6A",
+  "brightGreen": "#C2D26A",
+  "brightYellow": "#F7DE72",
+  "brightBlue": "#E8BD54",
+  "brightPurple": "#D8AD70",
+  "brightCyan": "#F0CB68",
+  "brightWhite": "#FBF1C7"
+}

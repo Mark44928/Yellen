@@ -1,0 +1,13 @@
+# Yellen ${variant} — ripgrep color configuration
+# Install: cp ripgrep/yellen-${variant}.rc ~/.ripgreprc
+# Then: export RIPGREP_CONFIG_PATH="$HOME/.ripgreprc"
+# Uses 24-bit truecolor hex values (#RRGGBB).
+
+--colors=match:fg:${rgb:P.accents.primary}
+--colors=match:style:bold
+--colors=path:fg:${rgb:P.accents.secondary}
+--colors=path:style:bold
+--colors=line:fg:${rgb:P.editor.comment}
+--colors=column:fg:${rgb:P.accents.cyan}
+--colors=highlight:bg:${rgb:P.accents.yellow}
+--colors=highlight:fg:${rgb:P.editor.bg}

@@ -1,0 +1,38 @@
+# Yellen dark — fish shell theme
+# Install: cp fish/yellen-dark.theme ~/.config/fish/themes/
+# Then: fish_config  →  select "Yellen dark"
+# Or:   set -U fish_color_* values manually (see below)
+
+# name: Yellen dark
+# preferred_background: #171408
+
+fish_color_normal "#F3E8B8"
+fish_color_command "#F2D14E"
+fish_color_param "#D8A93B"
+fish_color_redirection "#E6C15A"
+fish_color_end "#F2D14E"
+fish_color_error "#C76A52"
+fish_color_comment "#87763B"
+fish_color_match --background="#24200C"
+fish_color_selection --background="#24200C"
+fish_color_search_match --background="#F7DE72"
+fish_color_history_current --bold
+fish_color_cwd "#F3E8B8"
+fish_color_cwd_root "#C76A52"
+fish_color_valid_path --underline
+fish_color_operator "#F7DE72"
+fish_color_escape "#E6C15A"
+fish_color_quote "#D8A93B"
+fish_color_keyword "#C98B6B"
+fish_color_option "#F2D14E"
+fish_color_user "#F2D14E"
+fish_color_host "#D8A93B"
+fish_color_host_remote "#C76A52"
+fish_color_cancel "#171408" --background="#F3E8B8"
+fish_color_autosuggestion "#87763B"
+
+# Pager colors
+fish_pager_color_prefix "#F2D14E" --bold --underline
+fish_pager_color_completion "#F3E8B8"
+fish_pager_color_description "#D8A93B"
+fish_pager_color_progress "#F2D14E" --background="#24200C" --bold
