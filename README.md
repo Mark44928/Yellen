@@ -1,4 +1,4 @@
-<h1 align="center"><img src="assets/logo.svg" width="840" alt="Yellen"></h1>
+<h1 align="center"><img src="assets/logo.svg?v=2" width="840" alt="Yellen"></h1>
 
 ![MIT License](https://img.shields.io/badge/license-MIT-yellow.svg)
 ![Vim](https://img.shields.io/badge/vim-9%2B-yellow.svg)
