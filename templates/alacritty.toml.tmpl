@@ -1,7 +1,12 @@
 # Yellen ${variant_name} — warm golden terminal theme
 
+{{#if is_light}}
+# Install: cp extras/alacritty-light.toml ~/.config/alacritty/themes/yellen-light.toml
+# Then add `import = ["~/.../yellen-light.toml"]` to alacritty.toml
+{{else}}
 # Install: cp extras/alacritty.toml ~/.config/alacritty/themes/yellen.toml
 # Then add `import = ["~/.../yellen.toml"]` to alacritty.toml
+{{/if}}
 
 [colors.primary]
 background = "${P.terminal.background}"

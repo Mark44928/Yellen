@@ -63,12 +63,12 @@ copies the matching variant. It never edits your main app configs — it prints
 the one include/theme line to add instead.
 
 ```bash
-./install.sh                     # interactive, dark by default
-./install.sh --light --all       # light variant, every detected app
-./install.sh --only termux,kitty,vim
-./install.sh --list              # show detected targets
-./install.sh --all --dry-run     # preview copies
-./install.sh --uninstall         # remove files recorded by the installer
+bash install.sh                     # interactive, dark by default
+bash install.sh --light --all       # light variant, every detected app
+bash install.sh --only termux,kitty,vim
+bash install.sh --list              # show detected targets
+bash install.sh --all --dry-run     # preview copies
+bash install.sh --uninstall         # remove files recorded by the installer
 ```
 
 Replaced files are backed up; the installer records what it wrote in
@@ -404,12 +404,12 @@ Tiny, dependency-free tools from the same family:
 - [Bluney](https://github.com/Mark44928/Bluney) — blue-injected theme family — dark + light, single palette.json
 - [Mark44928](https://github.com/Mark44928) — profile and project index
 - [plusafetch](https://github.com/Mark44928/plusafetch) — C++23 fetch for Termux — ~23 ms, zero subprocesses on the default path
-- [Plusalator](https://github.com/Mark44928/Plusalator) — C++17 calculator REPL — Qalculate-flavored, ghost autosuggest, 18 themes
+- [Plusalator](https://github.com/Mark44928/Plusalator) — C++17 calculator REPL — Qalculate-flavored, ghost autosuggest, 19 themes
 - [GrubBlastersHTML](https://github.com/Mark44928/GrubBlastersHTML) — Turn-based artillery in one HTML file — 72 weapons, fully destructible terrain
 - [SnakTUI](https://github.com/Mark44928/SnakTUI) — Snake game for the terminal — Textual + Python
 - [Easy-Termux-Package-Manager](https://github.com/Mark44928/Easy-Termux-Package-Manager) — fzf-driven package manager for Termux — snapshots, audit, 194 tests
 - [NoNameOS](https://github.com/Mark44928/NoNameOS) — OS simulation in a single C++17 file — virtual FS, real shell
-- [CalculaHTML](https://github.com/Mark44928/CalculaHTML) — static HTML calculator — 15 themes + System mode, zero deps
+- [CalculaHTML](https://github.com/Mark44928/CalculaHTML) — static HTML calculator — 16 themes + System mode, zero deps
 - [android12-fastfetch](https://github.com/Mark44928/android12-fastfetch) — fastfetch config for Android 12 + native X11 Termux desktops
 - [Anti-bloatware-list-for-Android-TV-Boxes-and-Sticks-for-rooted](https://github.com/Mark44928/Anti-bloatware-list-for-Android-TV-Boxes-and-Sticks-for-rooted) — ADB debloat for rooted Android 9+ TV sticks & boxes
 - [Android9-audios](https://github.com/Mark44928/Android9-audios) — 217 stock Android 9 system sounds + per-file SHA-256

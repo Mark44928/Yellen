@@ -1,7 +1,6 @@
 # Yellen Dark — warm golden terminal theme
 
-# Install: cp extras/alacritty.toml ~/.config/alacritty/themes/yellen.toml
-# Then add `import = ["~/.../yellen.toml"]` to alacritty.toml
+
 
 [colors.primary]
 background = "#171408"
