@@ -39,7 +39,7 @@ endif
 " dark: bg #171408 surface #24200C fg #F3E8B8 comment #87763B
 " light: bg #FBF6DE surface #F1E8C4 fg #332A0D comment #75673C
 " accents (both): primary #F2D14E secondary #D8A93B yellow #F7DE72
-"   rose #A88EA0 cyan #7FD7C4 error #C07A6E
+"   rose #C98B6B cyan #E6C15A error #C76A52
 
 if s:light
   let s:bg   = '#FBF6DE'
